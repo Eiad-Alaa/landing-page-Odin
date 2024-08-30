@@ -17,6 +17,10 @@ ul{
   margin: 0;
   padding: 0;
 }
+p,h1,h2{
+  margin: 0;
+}
+
 header a{
   text-decoration: none;
   color:white;
@@ -35,7 +39,6 @@ header .logo{
   font-size: 28px;
   font-weight: 900;
   color: white;
-  margin: 0;
 }
 header .links{
   display: flex;
@@ -61,17 +64,16 @@ header .links{
   justify-content: center;
 }
 .info h1{
-  margin: 0;
   font-size: 48px;
 }
 .info p{
-  margin: 0;
   font-size: 16px;
   font-style: italic;
 }
-.info button{
+button{
   background-color: #000E29;
   color: white;
+  border: 1px solid white;
   margin-top: 8px;
   padding: 4px 8px;
   border-radius: 8px;
@@ -107,7 +109,6 @@ header .links{
   color: #000E29;
   font-size: 36px;
   text-align: center;
-  margin: 0;
   margin-top: 24px;
 }
 
@@ -125,7 +126,6 @@ header .links{
   box-shadow: 0px 0px 5px 0px #DC052D;
 }
 .card p{
-  margin: 0;
   font-size: auto;
   max-width: 180px;
   text-align: center;
@@ -139,7 +139,7 @@ header .links{
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color:rgb(220, 5, 45,90%);
+  background-color:rgb(220, 5, 45,85%);
   color: white;
   padding: 48px 96px 48px 120px;
   gap: 16px;
@@ -147,7 +147,6 @@ header .links{
 
 .container3 p{
   font-size: 24px;
-  margin: 0;
   padding-top: 24px;
 }
 .container3 strong{
@@ -155,3 +154,37 @@ header .links{
   align-self: flex-end;
   color:#000E29;
 }
+
+/* end of container 3*/
+
+.container4{
+  padding: 48px 96px 48px 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.join-card{
+  background-color: #DC052D;
+  padding: 36px 72px;
+  color: white;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap:48px;
+}
+
+.join-card .p1{
+  font-weight: 600;
+  font-size: 24px;
+}
+
+/*end of container 4*/
+
+
+
+
+
+
